@@ -8,7 +8,7 @@ class Welcome extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		$this->db = $this->load->database('SERVICE_UP', true);
+		$this->db = $this->load->database('NAME_HOST', true);
 	}
 
 	/**

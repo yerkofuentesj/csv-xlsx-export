@@ -73,14 +73,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
-$db['SERVICE_UP'] = array(
+$db['NAME_HOST'] = array(
     'dsn' => '',
-    'hostname' => '10.78.200.86',
-    'username' => 'sa',
-    'password' => 'Hoscar123',
-    'database' => 'db_service_vpn_dev',
-    'dbdriver' => 'sqlsrv',
-    'port' => '1433',
+    'hostname' => '',
+    'username' => '',
+    'password' => '',
+    'database' => '',
+    'dbdriver' => '',
+    'port' => '',
     'dbprefix' => '',
     'pconnect' => FALSE,
     'db_debug' => (ENVIRONMENT !== 'production'),
